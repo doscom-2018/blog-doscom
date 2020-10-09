@@ -7,7 +7,7 @@ git clone https://github.com/doscom-2018/blog-doscom --recurse-submodules --remo
 ### Running and building
 ```
 docker build -t "blog-doscom:Dockerfile" .
-docker run -dit --restart always -p 5050:80 blog-doscom:Dockerfile
+docker run -dit -p 5050:80 --restart always blog-doscom:Dockerfile
 ```
 
 * Go to `/etc/apache2/httpd.conf`
