@@ -1,4 +1,4 @@
-# Blog Doscom Docker
+# Blog Doscom Deploy
 ### Cloning
 ```
 git clone https://github.com/doscom-2018/blog-doscom-deploy --recurse-submodules --remote-submodules
